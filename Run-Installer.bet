@@ -1,0 +1,5 @@
+@'
+@echo off
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0Install-NetFix.ps1"
+pause
+'@ | Out-File -Encoding ASCII -FilePath .\installer\Run-Installer.bat
